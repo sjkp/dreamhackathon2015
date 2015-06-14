@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Accelerometer", "http://localhost:1470", "{AE6942C4-96C5-444A-8FD7-257A3E179DFA}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1470"
+		Debug.AspNetCompiler.PhysicalPath = "Accelerometer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1470\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1470"
+		Release.AspNetCompiler.PhysicalPath = "Accelerometer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1470\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Accelerometer\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerClient", "ServerClient\ServerClient.csproj", "{EA3AF954-AA35-4B5A-9491-F69A58575F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendWeb", "BackendWeb\BackendWeb.csproj", "{77A6FD91-92BC-4454-8418-0A66F5CBF0E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeatDector", "BeatDector\BeatDector.csproj", "{B312103D-9834-43A3-B248-92D2C4C40363}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE6942C4-96C5-444A-8FD7-257A3E179DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6942C4-96C5-444A-8FD7-257A3E179DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE6942C4-96C5-444A-8FD7-257A3E179DFA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE6942C4-96C5-444A-8FD7-257A3E179DFA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EA3AF954-AA35-4B5A-9491-F69A58575F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3AF954-AA35-4B5A-9491-F69A58575F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3AF954-AA35-4B5A-9491-F69A58575F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3AF954-AA35-4B5A-9491-F69A58575F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77A6FD91-92BC-4454-8418-0A66F5CBF0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A6FD91-92BC-4454-8418-0A66F5CBF0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A6FD91-92BC-4454-8418-0A66F5CBF0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A6FD91-92BC-4454-8418-0A66F5CBF0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B312103D-9834-43A3-B248-92D2C4C40363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B312103D-9834-43A3-B248-92D2C4C40363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B312103D-9834-43A3-B248-92D2C4C40363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B312103D-9834-43A3-B248-92D2C4C40363}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
