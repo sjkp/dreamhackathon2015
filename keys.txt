@@ -1,0 +1,13 @@
+org=9cg8pi
+type=phone
+id=simped
+auth-method=token
+auth-token=pRjp*(g+9KK6X*wE*A
+
+
+
+
+
+
+Key:	a-9cg8pi-zsskmsjm9e
+Auth Token:	apKBS&VA&dCKHCbzBZ
